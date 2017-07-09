@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+
+.home-page-images-container {
+  margin-left: 50px;
+}
+
+.mitch {
+  position: absolute;
+  top: 0;
+  left: 250px;
+}
+
+.travis {
+  position: absolute;
+  top: 0;
+  left: 450px;
+}
+
+.michi {
+  position: absolute;
+  top: 0;
+  left: 650px;
+}
+
+.kelley {
+  position: absolute;
+  top: 0;
+  left: 850px;
+}
+
+.home-page-images img {
+  display: flex;
+  flex-direction: row;
+  max-width: 200px;
+  height: 350px;
+}
+
+.sidebar {
+  text-decoration: underline;
+  color: white;
+  position: absolute;
+  top: 350px;
+  width: 100px;
+  height: 300px;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+}
+
+.chapter {
+  margin-top: 15px;
+}
